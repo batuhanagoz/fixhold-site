@@ -66,7 +66,7 @@ export default function FixHoldSite() {
             Hassas Fikstür Tasarımı & İmalatı
           </motion.h1>
           <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.1 }} className="mt-5 max-w-2xl text-neutral-600">
-            CNC talaşlı imalat odaklı, kaynak/montaj/ölçüm fikstürlerinde uçtan uca çözüm: tasarım → fason imalat → montaj & test.
+            CNC talaşlı imalat odaklı, kaynak/montaj/ölçüm fikstürlerinde uçtan uca çözüm: tasarım → üretim → montaj & test.
           </motion.p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a href="#portfolio" className="rounded-xl bg-neutral-200 px-5 py-3 text-sm font-semibold hover:bg-neutral-300 transition">Portföyü Gör</a>
@@ -94,13 +94,13 @@ export default function FixHoldSite() {
           <div>
             <h2 className="text-2xl sm:text-3xl font-extrabold">Neden FixHold?</h2>
             <p className="mt-4 text-neutral-600">
-              4+ yıllık kalıp, fikstür ve CNC deneyimiyle; tasarım doğrulama, teknik resim, tedarik ve montaj-test aşamalarını tek elde topluyoruz. Amacımız: tekrar edilebilirlik, ergonomi ve çevrim süresi kazanımı.
+              FixHold, fikstür tasarımı ve imalat süreçlerinde uçtan uca çözümler sunar. Tasarımdan teknik resim hazırlamaya, montaj ve fonksiyonel test aşamalarına kadar her adımı kendi bünyemizde yönetiyoruz. Amacımız; tekrarlanabilir kalite, operatör ergonomisi ve çevrim süresinde verimlilik kazandırmaktır.
             </p>
             <ul className="mt-6 space-y-3 text-neutral-700">
-              <li>• SolidWorks tabanlı hızlı tasarım ve revizyon</li>
-              <li>• Fason imalat ağı ile esnek kapasite</li>
-              <li>• Montaj & fonksiyonel test dahildir</li>
-              <li>• GD&T ve ISO standartlarına uygunluk</li>
+              <li>• Hızlı modelleme ve revizyon</li>
+              <li>• Esnek üretim kapasitesiyle farklı ihtiyaçlara uyum</li>
+              <li>• Montaj & fonksiyonel test süreçleri dahildir</li>
+              <li>• GD&T ve uluslararası standartlara tam uygunluk</li>
             </ul>
           </div>
           <div className="grid sm:grid-cols-2 gap-4">
@@ -121,8 +121,8 @@ export default function FixHoldSite() {
           <h2 className="text-2xl sm:text-3xl font-extrabold">Hizmetler</h2>
           <div className="mt-8 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { title: "Tasarım & Teknik Resim", desc: "SolidWorks ile 3D/2D, malzeme listesi, GD&T ve proses notları." },
-              { title: "Fason İmalat Yönetimi", desc: "CNC, kaynak ve yüzey işlemlerinde tedarik koordinasyonu." },
+              { title: "Tasarım & Teknik Resim", desc: "3D/2D, malzeme listesi, GD&T ve proses notları." },
+              { title: "Üretim Yönetimi", desc: "CNC, kaynak ve yüzey işlemlerinde güvenilir tedarik ve koordinasyon." },
               { title: "Montaj & Test", desc: "Fonksiyonel test, emniyet kontrolü ve devreye alma." },
               { title: "Revizyon & İyileştirme", desc: "Çevrim süresi ve ergonomi odaklı sürekli iyileştirme." },
               { title: "Dokümantasyon", desc: "Kullanım kılavuzu, bakım planı ve ölçüm raporları." },
